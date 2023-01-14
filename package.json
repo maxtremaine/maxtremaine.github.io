@@ -1,0 +1,19 @@
+{
+  "name": "maxtremaine.github.io",
+  "version": "0.0.0",
+  "description": "Max Tremaine's github hosted homepage.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxtremaine/maxtremaine.github.io.git"
+  },
+  "author": "Max Tremaine <tremaine@hey.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/maxtremaine/maxtremaine.github.io/issues"
+  },
+  "homepage": "https://github.com/maxtremaine/maxtremaine.github.io#readme"
+}
