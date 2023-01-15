@@ -4,7 +4,8 @@
   "description": "Max Tremaine's github hosted homepage.",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "serve"
   },
   "repository": {
     "type": "git",
