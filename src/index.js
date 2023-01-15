@@ -1,4 +1,8 @@
-fetch('src/data.json')
-    .then(data => data.json())
-    .then(data => data.maxtremaine.data) // Website content.
-    .then(console.log)
+$.getJSON('src/data.json')
+    .done(function(data) { 
+        console.log(data.maxtremaine.data)
+        return data
+    })
+    .done(function(data) {
+        console.log(data.maxtremaine.data.articles)
+    })
