@@ -1,6 +1,6 @@
-$.getJSON('src/data.json', function(json) {
-    const data = json.maxtremaine.data
+$.getJSON('src/data.json', function(data) {
     console.log(data)
+    data = data.maxtremaine.data // Website content.
     $('.loaded').toggle()
     Object.values(data.contact)
         .forEach(function(contact) {
