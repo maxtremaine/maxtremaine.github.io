@@ -52,6 +52,10 @@
         "linkedin": {
           "title": "LinkedIn",
           "link": "https://www.linkedin.com/in/maxtremaine/"
+        },
+        "github": {
+          "title": "GitHub",
+          "link": "https://github.com/maxtremaine"
         }
       },
       "articles": {
