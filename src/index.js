@@ -3,7 +3,7 @@ function createContactListItem(contact) {
 }
 
 function createArticleListItem(article) {
-    return '<li><a href="' + article.link + '" target="_blank">' + article.title + '</a>:' + article.description + '(' + article.date + ')</li>'
+    return '<li><a href="' + article.link + '" target="_blank">' + article.title + '</a>: ' + article.description + ' (' + article.date + ')</li>'
 }
 
 $.getJSON('src/data.json', function(data) {
