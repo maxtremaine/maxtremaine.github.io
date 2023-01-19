@@ -2,14 +2,13 @@
 
 The internet's best source for information about Max Tremaine.
 
-## Test and Run
+## Test and Run Locally
 
 ```sh
 
 % git clone https://github.com/maxtremaine/maxtremaine.github.io.git
 % npm i
 % npm test
-% npm start
 
 ```
 
