@@ -12,4 +12,4 @@ The internet's best source for information about Max Tremaine.
 
 ```
 
-Both test and start should send you to https://localhost:3000. Mocha in browser is used for testing.
+Mocha in browser is used for testing. To run tests, navigate to localhost:3000/test.
