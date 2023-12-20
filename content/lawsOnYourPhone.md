@@ -1,5 +1,7 @@
 # Laws on Your Phone
+
 Where personalized legal services are delivered.
+
 June 20, 2016
 
 I have a hunch that “Laws on Your Phone” is not going to be the most enticing title. Based on my experience working with legal databases, I believe that the delivery of legal data on mobile devices is going to completely transform legal services, and what it means to be an informed citizen. Mobile devices present a uniquely personal set of data to developers, and this shifts the incentives in legal tech toward products that disintermediate legal services.
