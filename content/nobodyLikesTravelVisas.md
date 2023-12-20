@@ -14,11 +14,8 @@ It is pretty easy to find the laws that govern open alcohol in Michigan, but it 
 
 There wasn’t an easy alternative for finding out if what we wanted to do was legal, and that hit me. This is the kind of issue that can be solved over a period of time in one’s home jurisdiction, getting to know the relevant laws and becoming comfortable with the general policies and governance structure, but when you’re travelling you don’t have the luxury of time to get to know the laws of your destination. That’s a problem in need of a solution.
 
-Minimum Viable Product
-Armed with this insight, 
-Ivan Sharko
- and I made our first product, Easy Law. It was a really simple application that would show summaries of state laws for a few often searched behaviours, allowing for apples-to-apples comparison from state to state. Our unique value proposition was, “One click to know what’s legal.”
-
+## Minimum Viable Product
+Armed with this insight, Ivan Sharko and I made our first product, Easy Law. It was a really simple application that would show summaries of state laws for a few often searched behaviours, allowing for apples-to-apples comparison from state to state. Our unique value proposition was, “One click to know what’s legal.”
 
 ![Easy Law 1.0 for iOS](/img/nobodyLikesTravelVisas2.webp)
 
@@ -58,7 +55,6 @@ Many more were put off by the available systems and services:
 
 Most of all, people really didn’t like filling out the same forms over and over again:
 
-
 ![A Pie Chart of Our Initial Findings](/img/nobodyLikesTravelVisas3.webp)
 
 One question we eventually started opening our interviews with was, “Have you ever applied for a travel visa?” The answers we got fell into two distinct categories, “No;” and “Yes; it was a bad experience. I don’t like filling out forms and/or standing in lines.” It struck us that this was a widespread issue with the users that were drawn to our app, and there wasn’t a big name solution in the market for dealing with it.
@@ -90,10 +86,6 @@ Lean Startup Co.
 My initial concern with user interviews driving our strategy was that they would be too highly variable, and not inherently representative. Ultimately there are too many degrees of freedom to test for in any business, but if you make yourself open to the challenges around you compelling product ideas will jump out, and products with no market will fall flat. A small sample can be meaningful if they exhibit the key characteristics of a group; in our case this was our travellers exhibiting the characteristic of having applied for a travel visa.
 
 It’s not going to be easy, but armed with the data that our users continue to provide we are building a product that solves real problems. Sherpa is not the first product that we thought of, but we’re confident that it will work out better than Easy Law, not because we built it and measured our feedback, but because we measured our feedback and built. It is this distinction that will continue to drive our strategy going forward.
-
-Sherpa
-Easy travel visas.
-bit.ly
 
 Big thanks to Sandeep De and Steve Farlow at Wilfrid Laurier University for introducing us to Customer Development, and the Lean Startup. If you’ve connected to any of the ideas here please reach out to me.
 
