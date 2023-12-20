@@ -6,7 +6,7 @@ Nov 11, 2016
 
 I had an epiphany on the way to a Michigan Wolverines basketball game. I was crossing the border from Windsor Ontario into Detroit, and my friend asked, “Can you carry an open beer here?” I’m from Toronto, where you can’t buy beer outside of strictly regulated outlets (literally, “The Beer Store”), and drinking in public is punished severely, so I assumed that would be the case across the border. I consulted Google.
 
-![Google’s First Page for “open alcohol michigan”](img/nobodyLikesTravelVisas0.webp)
+![Google’s First Page for “open alcohol michigan”](/img/nobodyLikesTravelVisas0.webp)
 
 It is pretty easy to find the laws that govern open alcohol in Michigan, but it turns out that isn’t enough. There are several sections of the Michigan Legislature that apply to open alcohol in public, they’re not clearly laid out, and they’re not written in plain English. It took about a half hour to figure out what the laws meant.
 
