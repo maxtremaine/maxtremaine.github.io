@@ -209,11 +209,18 @@
           "key": "onesWorth"
         },
         "industryIsTheEnemy": {
-          "quote": "Industry is the enemy of melancholy",
+          "quote": "Industry is the enemy of melancholy.",
           "author": "William F. Buckley",
           "public": true,
-          "length": 35,
+          "length": 36,
           "key": "industryIsTheEnemy"
+        },
+        "noSolutions": {
+          "quote": "There are no solutions. There are only tradeoffs.",
+          "author": "Thomas Sowell",
+          "public": true,
+          "length": 49,
+          "key": "noSolutions"
         },
         "dontTakeRefuge": {
           "quote": "Don't take refuge in the false security of consensus.",
