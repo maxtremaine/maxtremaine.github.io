@@ -1,7 +1,3 @@
-function styleToBlock(element) {
-    element.style.display = 'block'
-}
-
 function createContactListItem(contact) {
     return '<li><a href="' + contact.link + '" target="_blank">' + contact.title + '</a></li>'
 }
@@ -13,7 +9,9 @@ function createArticleListItem(article) {
 function renderPage(data) {
     data = data.maxtremaine.data // Website content.s
     document.querySelector('#scriptWarning').style.display = 'none'
-    document.querySelectorAll('.loaded').forEach(styleToBlock)
+    document.querySelectorAll('.loaded').forEach(function(element) {
+        element.style.display = 'block'
+    })
     document.querySelector('#contactList').innerHTML = Object.values(data.contact)
         .map(createContactListItem)
         .join('')
