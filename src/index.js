@@ -6,6 +6,10 @@ const createArticleListItem = article => (
     '<li><a href="' + article.link + '" target="_blank">' + article.title + '</a>: ' + article.description + ' (' + article.date + ')</li>'
 )
 
+const createQuoteListItem = favouriteQuote => (
+    '<li>"' + favouriteQuote.quote + '" -' + favouriteQuote.author
+)
+
 const renderPage = data => {
     data = data.maxtremaine.data // Website content.s
     document.querySelector('#scriptWarning').style.display = 'none'
@@ -18,6 +22,11 @@ const renderPage = data => {
     document.querySelector('#articleList').innerHTML = Object.values(data.articles)
         .sort((a, b) => a.order - b.order )
         .map(createArticleListItem)
+        .join('')
+    document.querySelector('#quoteList').innerHTML = Object.values(data.favouriteQuotes)
+        .filter(quote => quote.public)
+        .sort((a, b) => a.length - b.length)
+        .map(createQuoteListItem)
         .join('')
 }
 

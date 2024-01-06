@@ -282,7 +282,7 @@
         "writingAsWork": {
           "quote": "Stop thinking about writing as art. Think of it as work. If you’re an artist, whatever you do is going to be art. If you’re not an artist, at least you can do a good day’s work.",
           "author": "Paddy Chayefsky",
-          "public": true,
+          "public": false,
           "length": 177,
           "key": "writingAsWork"
         },
@@ -303,7 +303,7 @@
         "ifYouThinkOfTheWorld": {
           "quote": "[If] you think of the world as consisting of lottery tickets, you have set yourself up to lose. ... Even though there may be things that involve irreducible elements of luck, it's not an intellectual truth about the world.",
           "author": "Peter Thiel",
-          "public": true,
+          "public": false,
           "length": 222,
           "key": "ifYouThinkOfTheWorld"
         },
