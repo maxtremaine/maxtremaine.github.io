@@ -9,9 +9,9 @@ function createArticleListItem(article) {
 function renderPage(data) {
     data = data.maxtremaine.data // Website content.
     document.getElementById('scriptWarning').style.display = 'none'
-    for(const element of document.getElementsByClassName('loaded')){
+    document.querySelectorAll('.loaded').forEach(function(element) {
         element.style.display = 'block'
-    }
+    })
     document.getElementById('contactList').innerHTML += Object.values(data.contact)
         .map(createContactListItem)
         .join('')
