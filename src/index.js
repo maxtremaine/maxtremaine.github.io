@@ -34,7 +34,7 @@ const renderPage = data => {
         .join('')
 }
 
-const loadAndRender = () => {
+const loadAndRender = () => { // Set to run on body load.
     fetch('src/data.json')
         .then(data => data.json())
         .then(renderPage)
