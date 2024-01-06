@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+f<!DOCTYPE html>
 <html>
   <head>
     <title>Max Tremaine</title>
@@ -7,7 +7,7 @@
       .loaded { display: none; }
     </style>
   </head>
-  <body>
+  <body onload="loadPage()">
     <img src="img/greenHeadshot.jpeg" alt="Max's headshot." width="500" />
     <h1>Max Tremaine</h1>
     <p>CEO @ <a href="https://www.joinsherpa.com" target="_blank">sherpa°</a></p>
@@ -17,7 +17,6 @@
     <ul id="articleList" class="loaded"></ul>
     <p id="scriptWarning"><mark>Trouble loading data. Do you have scripts turned off?</mark></p>
     <footer><a href="/src/data.json" target="_blank">Here is the data</a> if you want to analyze my website. You can test the functions that built this page <a href="/test.html">here</a>.</footer>
-    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.min.js"></script>
     <script src="src/index.js"></script>
   </body>
 </html>
