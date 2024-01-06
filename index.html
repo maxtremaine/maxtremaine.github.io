@@ -6,9 +6,10 @@
       body { font-family: Georgia, 'Times New Roman', Times, serif; }
       .loaded { display: none; }
     </style>
+    <link rel="icon" type="image/png" href="img/favicon.png" fetchpriority="low" />
   </head>
   <body onload="loadAndRender()">
-    <img src="img/greenHeadshot.jpeg" alt="Max's headshot." width="500" />
+    <img src="img/greenHeadshot.jpeg" alt="Max's headshot." width="500" loading="lazy" />
     <h1>Max Tremaine</h1>
     <p>CEO @ <a href="https://www.joinsherpa.com" target="_blank">sherpa°</a></p>
     <h2 class="loaded">Contact</h2>
@@ -19,6 +20,6 @@
     <ul id="quoteList" class="loaded"></ul>
     <p id="scriptWarning"><mark>Trouble loading data. Do you have scripts turned off?</mark></p>
     <footer><a href="/src/data.json" target="_blank">Here is the data</a> if you want to analyze my website. You can test the functions that built this page <a href="/test.html">here</a>.</footer>
-    <script src="src/index.js"></script>
+    <script src="src/index.js" ></script>
   </body>
 </html>
