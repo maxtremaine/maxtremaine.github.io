@@ -1,3 +1,7 @@
+function styleToBlock(element) {
+    element.style.display = 'block'
+}
+
 function createContactListItem(contact) {
     return '<li><a href="' + contact.link + '" target="_blank">' + contact.title + '</a></li>'
 }
@@ -7,15 +11,13 @@ function createArticleListItem(article) {
 }
 
 function renderPage(data) {
-    data = data.maxtremaine.data // Website content.
-    document.getElementById('scriptWarning').style.display = 'none'
-    document.querySelectorAll('.loaded').forEach(function(element) {
-        element.style.display = 'block'
-    })
-    document.getElementById('contactList').innerHTML += Object.values(data.contact)
+    data = data.maxtremaine.data // Website content.s
+    document.querySelector('#scriptWarning').style.display = 'none'
+    document.querySelectorAll('.loaded').forEach(styleToBlock)
+    document.querySelector('#contactList').innerHTML = Object.values(data.contact)
         .map(createContactListItem)
         .join('')
-    document.getElementById('articleList').innerHTML += Object.values(data.articles)
+    document.querySelector('#articleList').innerHTML = Object.values(data.articles)
         .sort(function(a, b) { a.order - b.order })
         .map(createArticleListItem)
         .join('')
