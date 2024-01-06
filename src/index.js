@@ -16,7 +16,7 @@ const renderPage = data => {
         .map(createContactListItem)
         .join('')
     document.querySelector('#articleList').innerHTML = Object.values(data.articles)
-        .sort(function(a, b) { a.order - b.order })
+        .sort((a, b) => a.order - b.order )
         .map(createArticleListItem)
         .join('')
 }
