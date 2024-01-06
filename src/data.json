@@ -219,7 +219,7 @@
         "industryIsTheEnemy": {
           "quote": "Industry is the enemy of melancholy.",
           "author": "William F. Buckley",
-          "public": true,
+          "public": false,
           "length": 36,
           "key": "industryIsTheEnemy"
         },
