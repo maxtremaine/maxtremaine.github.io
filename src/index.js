@@ -12,15 +12,16 @@ function renderPage(data) {
     for(const element of document.getElementsByClassName('loaded')){
         element.style.display = 'block'
     }
-    for(const contact of Object.values(data.contact)) {
-        document.getElementById('contactList').innerHTML +=createContactListItem(contact)
-    }
-    for(const article of Object.values(data.articles).sort((a, b) => a.order - b.order)) {
-        document.getElementById('articleList').innerHTML += createArticleListItem(article)
-    }
+    document.getElementById('contactList').innerHTML += Object.values(data.contact)
+        .map(createContactListItem)
+        .join('')
+    document.getElementById('articleList').innerHTML += Object.values(data.articles)
+        .sort(function(a, b) { a.order - b.order })
+        .map(createArticleListItem)
+        .join('')
 }
 
-function loadPage() {
+function loadAndRender() {
     fetch('src/data.json')
         .then(data => data.json())
         .then(renderPage)
