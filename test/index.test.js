@@ -23,4 +23,17 @@ describe('index', () => {
             chai.assert.equal(createArticleListItem(sampleArticle), listItem)
         })
     })
+    describe('createQuoteListItem', () => {
+        it('Should put together a favourite quote list item', () => {
+            const sampleQuote = {
+              "quote": "One's worth is their price.",
+              "author": "Thomas Hobbes",
+              "public": true,
+              "length": 27,
+              "key": "onesWorth"
+            }
+            const listItem = "<li>\"One's worth is their price.\" -Thomas Hobbes</li>"
+            chai.assert.equal(createQuoteListItem(sampleQuote), listItem)
+        })
+    })
 })

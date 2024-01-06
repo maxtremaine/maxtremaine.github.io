@@ -9,7 +9,7 @@ const createArticleListItem = article => (
 )
 
 const createQuoteListItem = favouriteQuote => (
-    '<li>"' + favouriteQuote.quote + '" -' + favouriteQuote.author
+    '<li>"' + favouriteQuote.quote + '" -' + favouriteQuote.author + '</li>'
 )
 
 // Handle data and rendering.
