@@ -1,3 +1,5 @@
+// Create HTML from data.
+
 const createContactListItem = contact => (
     '<li><a href="' + contact.link + '" target="_blank">' + contact.title + '</a></li>'
 )
@@ -9,6 +11,8 @@ const createArticleListItem = article => (
 const createQuoteListItem = favouriteQuote => (
     '<li>"' + favouriteQuote.quote + '" -' + favouriteQuote.author
 )
+
+// Handle data and rendering.
 
 const renderPage = data => {
     data = data.maxtremaine.data // Website content.s
