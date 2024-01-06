@@ -1,15 +1,15 @@
-function createContactListItem(contact) {
-    return '<li><a href="' + contact.link + '" target="_blank">' + contact.title + '</a></li>'
-}
+const createContactListItem = contact => (
+    '<li><a href="' + contact.link + '" target="_blank">' + contact.title + '</a></li>'
+)
 
-function createArticleListItem(article) {
-    return '<li><a href="' + article.link + '" target="_blank">' + article.title + '</a>: ' + article.description + ' (' + article.date + ')</li>'
-}
+const createArticleListItem = article => (
+    '<li><a href="' + article.link + '" target="_blank">' + article.title + '</a>: ' + article.description + ' (' + article.date + ')</li>'
+)
 
-function renderPage(data) {
+const renderPage = data => {
     data = data.maxtremaine.data // Website content.s
     document.querySelector('#scriptWarning').style.display = 'none'
-    document.querySelectorAll('.loaded').forEach(function(element) {
+    document.querySelectorAll('.loaded').forEach(element => {
         element.style.display = 'block'
     })
     document.querySelector('#contactList').innerHTML = Object.values(data.contact)
@@ -21,7 +21,7 @@ function renderPage(data) {
         .join('')
 }
 
-function loadAndRender() {
+const loadAndRender = () => {
     fetch('src/data.json')
         .then(data => data.json())
         .then(renderPage)
