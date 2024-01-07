@@ -1,15 +1,15 @@
 // Create HTML from data.
 
 const createContactListItem = contact => (
-    '<li><a href="' + contact.link + '" target="_blank">' + contact.title + '</a></li>'
+    `<li><a href="${contact.link}" target="_blank">${contact.title}</a></li>`
 )
 
 const createArticleListItem = article => (
-    '<li><a href="' + article.link + '" target="_blank">' + article.title + '</a>: ' + article.description + ' (' + article.date + ')</li>'
+    `<li><a href="${article.link}" target="_blank">${article.title}</a>: ${article.description} (${article.date})</li>`
 )
 
 const createQuoteListItem = favouriteQuote => (
-    '<li>"' + favouriteQuote.quote + '" -' + favouriteQuote.author + '</li>'
+    `<li>"${favouriteQuote.quote}" -${favouriteQuote.author}</li>`
 )
 
 // Handle data and rendering.
