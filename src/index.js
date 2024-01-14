@@ -1,14 +1,14 @@
-// Create HTML from data.
+// Render HTML from data.
 
-const createContactListItem = contact => (
+const renderContactListItem = contact => (
     `<li><a href="${contact.link}" target="_blank">${contact.title}</a></li>`
 )
 
-const createArticleListItem = article => (
+const renderArticleListItem = article => (
     `<li><a href="${article.link}" target="_blank">${article.title}</a>: ${article.description} (${article.date})</li>`
 )
 
-const createQuoteListItem = favouriteQuote => (
+const renderQuoteListItem = favouriteQuote => (
     `<li>"${favouriteQuote.quote}" -${favouriteQuote.author}</li>`
 )
 
@@ -19,16 +19,16 @@ const renderPage = data => {
     document.querySelector('#scriptWarning').style.display = 'none'
     document.querySelectorAll('.loaded').forEach(element => { element.style.display = 'block' })
     document.querySelector('#contactList').innerHTML = Object.values(data.contact)
-        .map(createContactListItem)
+        .map(renderContactListItem)
         .join('')
     document.querySelector('#articleList').innerHTML = Object.values(data.articles)
         .sort((a, b) => a.order - b.order )
-        .map(createArticleListItem)
+        .map(renderArticleListItem)
         .join('')
     document.querySelector('#quoteList').innerHTML = Object.values(data.favouriteQuotes)
         .filter(quote => quote.public)
         .sort((a, b) => a.length - b.length)
-        .map(createQuoteListItem)
+        .map(renderQuoteListItem)
         .join('')
 }
 
