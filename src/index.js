@@ -17,7 +17,7 @@ const renderQuoteListItem = favouriteQuote => (
 const renderPage = data => {
     data = data.maxtremaine.data // Website content.
     document.querySelector('#scriptWarning').style.display = 'none'
-    document.querySelectorAll('.loaded').forEach(element => { element.style.display = 'block' })
+    document.querySelector('#loaded').style.display = 'block'
     document.querySelector('#contactList').innerHTML = Object.values(data.contact)
         .map(renderContactListItem)
         .join('')
