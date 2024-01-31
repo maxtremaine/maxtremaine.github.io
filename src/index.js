@@ -14,7 +14,7 @@ const renderQuoteListItem = favouriteQuote => (
 
 // Handle data and rendering.
 
-const renderPage = data => {
+document.renderMTDC = data => {
     data = data.maxtremaine.data // Website content.
     document.querySelector('#scriptWarning').style.display = 'none'
     document.querySelector('#loadedContent').style.display = 'block'
@@ -35,5 +35,5 @@ const renderPage = data => {
 const loadAndRender = () => { // Set to run on body load.
     fetch('src/data.json')
         .then(data => data.json())
-        .then(renderPage)
+        .then(document.renderMTDC)
 }
