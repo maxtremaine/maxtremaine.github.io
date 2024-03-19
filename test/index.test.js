@@ -1,15 +1,15 @@
 describe('index', () => {
-    describe('createContactListItem', () => {
+    describe('renderContactListItem', () => {
         it('Should put together a contact list item', () => {
             const sampleContact = {
                 "title": "Twitter",
                 "link": "https://twitter.com/maxtremaine"
             }
             const listItem = '<li><a href="https://twitter.com/maxtremaine" target="_blank">Twitter</a></li>'
-            chai.assert.equal(createContactListItem(sampleContact), listItem)
+            chai.assert.equal(renderContactListItem(sampleContact), listItem)
         })
     })
-    describe('createArticleListItem', () => {
+    describe('renderArticleListItem', () => {
         it('Should put together an article list item', () => {
             const sampleArticle = {
                 "title": "Trading Lottery Tickets",
@@ -20,10 +20,10 @@ describe('index', () => {
                 "key": "tradingLotteryTickets"
             }
             const listItem = "<li><a href=\"https://maxtremaine.medium.com/trading-lottery-tickets-2857bebb153\" target=\"_blank\">Trading Lottery Tickets</a>: Mistaking probability for chance will lead you to a meaningless life. (Apr 25, 2021)</li>"
-            chai.assert.equal(createArticleListItem(sampleArticle), listItem)
+            chai.assert.equal(renderArticleListItem(sampleArticle), listItem)
         })
     })
-    describe('createQuoteListItem', () => {
+    describe('renderQuoteListItem', () => {
         it('Should put together a favourite quote list item', () => {
             const sampleQuote = {
               "quote": "One's worth is their price.",
@@ -33,7 +33,7 @@ describe('index', () => {
               "key": "onesWorth"
             }
             const listItem = "<li>\"One's worth is their price.\" -Thomas Hobbes</li>"
-            chai.assert.equal(createQuoteListItem(sampleQuote), listItem)
+            chai.assert.equal(renderQuoteListItem(sampleQuote), listItem)
         })
     })
 })
