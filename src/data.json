@@ -59,12 +59,20 @@
         }
       },
       "articles": {
+        "theBatchFramework": {
+          "title": "The Batch Framework",
+          "date": "May 21, 2025",
+          "description": "Hiring leaders who can use Generative AI effectively so you can meet the new bar for efficiency.",
+          "link": "https://www.linkedin.com/pulse/hiring-leaders-use-generative-ai-unlocking-efficiency-max-tremaine-idm1c/",
+          "order": 1,
+          "key": "theBatchFramework"
+        },
         "electronicEntryRequirements": {
           "title": "Electronic Entry Requirements",
           "date": "Mar 26, 2025",
           "description": "Why everyone needs pre-travel authorization.",
           "link": "https://www.linkedin.com/pulse/electronic-entry-requirements-why-everyone-suddenly-needs-tremaine-uqyqc",
-          "order": 1,
+          "order": 2,
           "key": "electronicEntryRequirements"
         },
         "basicsOfM&AForFounders": {
@@ -72,7 +80,7 @@
           "date": "Dec 17, 2023",
           "description": "What I would have liked to know about M&A before doing some research.",
           "link": "https://maxtremaine.medium.com/basics-of-m-a-for-founders-6a52934f6858",
-          "order": 2,
+          "order": 3,
           "key": "AForFounders"
         },
         "tradingLotteryTickets": {
@@ -80,7 +88,7 @@
           "date": "Apr 25, 2021",
           "description": "Mistaking probability for chance will lead you to a meaningless life.",
           "link": "https://maxtremaine.medium.com/trading-lottery-tickets-2857bebb153",
-          "order": 3,
+          "order": 4,
           "key": "tradingLotteryTickets"
         },
         "employeeStockOptions": {
@@ -88,7 +96,7 @@
           "date": "Aug 28, 2020",
           "description": "A storybook startup and its journey through corporate finance.",
           "link": "https://medium.com/@maxtremaine/employee-stock-options-in-context-e54a3528cff8",
-          "order": 4,
+          "order": 5,
           "key": "employeeStockOptions"
         },
         "theWorstPartOfTravel": {
@@ -96,7 +104,7 @@
           "date": "Dec 7, 2016",
           "description": "Some horror stories about visa applications from Sherpa's customer discovery interviews.",
           "link": "https://medium.com/sherpateam/stories-from-our-users-5b8afad1633#.ljg6m113p",
-          "order": 5,
+          "order": 6,
           "key": "theWorstPartOfTravel"
         },
         "nobodyLikesTravelVisas": {
@@ -104,7 +112,7 @@
           "date": "Nov 11, 2016",
           "description": "An overview of some of my findings researching travel visa requirements, and people's experiences applying for travel visas.",
           "link": "https://medium.com/sherpateam/nobody-likes-travel-visas-cd0031dff186#.td9nqa5py",
-          "order": 5,
+          "order": 7,
           "key": "nobodyLikesTravelVisas"
         },
         "yourPhoneWillReplaceYourPassport": {
@@ -112,7 +120,7 @@
           "date": "Jul 4, 2016",
           "description": "Some of my thoughts on the changing travel documentation landscape.",
           "link": "https://medium.com/sherpateam/your-phone-as-a-passport-e2463191db36#.4urbbtem5",
-          "order": 6,
+          "order": 8,
           "key": "yourPhoneWillReplaceYourPassport"
         },
         "lawsOnYourPhone": {
@@ -120,7 +128,7 @@
           "date": "Jun 20, 2016",
           "description": "Some of my thoughts on the application of mobile technologies to the consumption of legal and regulatory data.",
           "link": "https://medium.com/sherpateam/laws-on-your-phone-d0a116568918#.2t4mo5gs0",
-          "order": 7,
+          "order": 9,
           "key": "lawsOnYourPhone"
         }
       },
