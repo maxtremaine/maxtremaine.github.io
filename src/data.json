@@ -12,6 +12,7 @@
         },
         "article": {
           "title": "string",
+          "date": "string",
           "description": "string",
           "link": "string",
           "order": "number",
@@ -39,6 +40,7 @@
           "period": "string",
           "description": "string",
           "link": "string",
+          "year": "number",
           "key": "string"
         }
       }
@@ -402,7 +404,7 @@
           "description": "Rigorous study in statistics and social research.",
           "link": "https://www.wlu.ca/",
           "year": 2012,
-          "key":"laurierCHBA"
+          "key": "laurierCHBA"
         }
       }
     }
