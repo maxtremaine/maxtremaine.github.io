@@ -27,7 +27,7 @@
                             return res.text();
                         }
 
-                        return "<p><mark>Whoops, I can't find that article.</mark></p>";
+                        return `<p><mark>Whoops, you found an error:</mark></p><p><mark>${res.statusText}</mark></p>`;
                     })
                     .then((body) => {
                         document.querySelector("article").innerHTML = body;
