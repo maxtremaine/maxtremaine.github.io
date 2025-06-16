@@ -22,7 +22,13 @@
                 );
                 document.querySelector("#scriptWarning").style.display = "none";
                 fetch(`/html/${searchParams.get("key")}.html`)
-                    .then((data) => data.text())
+                    .then((res) => {
+                        if (res.ok) {
+                            return res.text();
+                        }
+
+                        return "<p><mark>Whoops, I can't find that article.</mark></p>";
+                    })
                     .then((body) => {
                         document.querySelector("article").innerHTML = body;
                     });
