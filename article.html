@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Max Tremaine</title>
+        <link
+            rel="icon"
+            type="image/png"
+            href="img/favicon.png"
+            fetchpriority="low"
+        />
+    </head>
+    <body>
+        <a href="/">Home</a>
+        <article></article>
+        <p id="scriptWarning">
+            <mark>Trouble loading data. Do you have scripts turned off?</mark>
+        </p>
+        <script>
+            document.body.onload = () => {
+                const searchParams = new URLSearchParams(
+                    document.location.search,
+                );
+                document.querySelector("#scriptWarning").style.display = "none";
+                fetch(`/html/${searchParams.get("key")}.html`)
+                    .then((data) => data.text())
+                    .then((body) => {
+                        document.querySelector("article").innerHTML = body;
+                    });
+            };
+        </script>
+    </body>
+</html>
