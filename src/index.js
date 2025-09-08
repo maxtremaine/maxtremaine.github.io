@@ -34,7 +34,6 @@ document.renderMTDC = (data) => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
-  // Set to run on body load.
   fetch("src/data.json")
     .then((data) => data.json())
     .then(document.renderMTDC);
