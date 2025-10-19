@@ -266,7 +266,7 @@
         "aCowardDies": {
           "quote": "A coward dies a million deaths, a solider dies but once.",
           "author": "Tupac Shakur",
-          "publicr": true,
+          "public": true,
           "length": 56,
           "key": "aCowardDies"
         },
