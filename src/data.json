@@ -263,6 +263,13 @@
           "length": 53,
           "key": "dontTakeRefuge"
         },
+        "aCowardDies": {
+          "quote": "A coward dies a million deaths, a solider dies but once.",
+          "author": "Tupac Shakur",
+          "publicr": true,
+          "length": 56,
+          "key": "aCowardDies"
+        },
         "dataIsTheSword": {
           "quote": "Data is the sword of the 21st century, those who wield it well, the Samurai.",
           "author": "Jonathan Rosenberg",
