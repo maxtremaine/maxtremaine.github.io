@@ -13,3 +13,8 @@ The internet's best source for information about Max Tremaine.
 ```
 
 Mocha in browser is used for testing. To run tests, navigate to https://localhost:3000/test.
+
+## To Do
+
+- [ ] Change "Twitter" to "Twitter/X"
+- [ ] Random Quote
