@@ -16,5 +16,6 @@ Mocha in browser is used for testing. To run tests, navigate to https://localhos
 
 ## To Do
 
+- [ ] Maximum Width for Body
 - [ ] Change "Twitter" to "Twitter/X"
 - [ ] Random Quote
